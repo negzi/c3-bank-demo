@@ -4,7 +4,7 @@
   "description": "Web Meeting PoC",
   "scripts": {
     "serve": "webpack-dev-server --config webpack/dev.config.js --progress",
-    "build": "rm -r dist; webpack --config webpack/prod.config.js --progress",
+    "build": "rm -r dist; webpack --config webpack/prod.config.js --progress && cp static/ericsson_c3_screen_sharing-0.0.1-fx.xpi ./dist",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "lint:watch": "esw --watch",

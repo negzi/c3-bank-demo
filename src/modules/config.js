@@ -24,7 +24,7 @@ export const serverUrl = 'https://demo.cct.ericsson.net'
 
 export const screenSharingFrameRate = 5
 export const chromeExtensionId = 'epajpkbdigdpepgncdpmilaoamkjgoah'
-export const firefoxExtensionUrl = '/static/ericsson_c3_screen_sharing-0.0.1-fx.xpi'
+export const firefoxExtensionUrl = '../../static/ericsson_c3_screen_sharing-0.0.1-fx.xpi'
 export const firefoxExtensionHash = 'sha1:3479ed305810108033e7a2735af786c262d1d350'
 
 export const appIcons = {
